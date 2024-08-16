@@ -1,0 +1,6 @@
+<testExecutions version="1">
+    <file path="PrimeService.Tests/PrimeService_IsPrimeShould.cs">
+      <testCase name="IsPrime_InputIs1_ReturnFalse" duration="5"/>
+      <testCase name="IsPrime_ValuesLessThan2_ReturnFalse" duration="5"/>
+    </file>
+  </testExecutions>

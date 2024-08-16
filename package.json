@@ -1,0 +1,5 @@
+{
+    "scripts": {
+      "test": "npm --prefix ./angular-with-coverage run test"
+    }
+  }
