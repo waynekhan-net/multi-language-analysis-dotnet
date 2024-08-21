@@ -8,7 +8,7 @@ namespace Prime.Services
         {
             if (candidate < 2)
             {
-                return false;
+                return false;;
             }
 
             for (var divisor = 2; divisor <= Math.Sqrt(candidate); divisor++)
