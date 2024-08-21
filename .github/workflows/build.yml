@@ -75,5 +75,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"multi-language-analysis_monorepo_dotnet" /n:"multi-language-analysis_monorepo_dotnet" /d:projectBaseDir="unit-testing-using-dotnet-test/" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
-          dotnet build
+          dotnet build "unit-testing-using-dotnet-test/unit-testing-using-dotnet-test.sln"
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
