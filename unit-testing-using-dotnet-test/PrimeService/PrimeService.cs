@@ -15,7 +15,7 @@ namespace Prime.Services
             {
                 if (candidate % divisor == 0)
                 {
-                    return false;
+                    return false;;
                 }
             }
             return true;
